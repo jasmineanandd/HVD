@@ -30,11 +30,13 @@
         }
 
         canvas {
-            background-color: transparent;
+            background-color: #ffccd5;
             position: absolute;
             top: 20%;
             left: 50%;
             transform: translateX(-50%);
+            border-radius: 15px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
         }
 
         .slideshow {
