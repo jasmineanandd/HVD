@@ -28,7 +28,7 @@ function drawText() {
 }
 
 // Image slideshow
-const images = ["image1.png", "image2.png", "image2.png"];
+const images = ["image1.jpeg", "image2.jpeg", "image2.jpeg"];
 let imgIndex = 0;
 const img = new Image();
 
