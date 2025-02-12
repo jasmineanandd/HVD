@@ -13,7 +13,7 @@ let textIndex = 0;
 let charIndex = 0;
 
 const dogImage = new Image();
-dogImage.src = "dog.png"; // Ensure you have a dog image named 'dog.png'
+dogImage.src = "dog.webp"; // Ensure you have a dog image named 'dog.png'
 let dogX = 50;
 let dogY = canvas.height / 2 - 30;
 
