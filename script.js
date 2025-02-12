@@ -5,8 +5,8 @@ document.body.style.backgroundColor = "pink"; // Set pink background
 
 const texts = ["Happy Valentine's Day Tanmay", "I Love You"];
 const fontSize = 50;
-ctx.font = fontSize + "px Arial";
-ctx.fillStyle = "red";
+ctx.font = fontSize + "px 'Brush Script MT', cursive";
+ctx.fillStyle = "#8B0000"; // Darkest pink (deep red)
 
 let textIndex = 0;
 let charIndex = 0;
@@ -46,4 +46,3 @@ function startSlideshow() {
 window.onload = () => {
     drawText();
 };
-
